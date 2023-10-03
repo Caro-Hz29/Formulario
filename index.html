@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+
+    <body>
+        <div class="titulo">
+            <h1>PRACTICA 1 - CALCULADORA BASICA</h1>
+        </div>
+
+        <div class="contenedor">
+            <h2>Num 1:</h2>
+            <input type="text" id="num1">
+            <h2>Num 2:</h2>
+            <input type="text" id="num2">
+            <br>  
+            <select name="opciones" id="opciones">
+                <option value="">Selecciona una opción</option>
+                <option value="Suma">Suma</option>
+                <option value="Resta">Resta</option>
+                <option value="Multiplicacion">Multiplicación</option>
+                <option value="Division">División</option> 
+            </select>
+
+            <button id="ejecutar">Ejecutar</button>
+            <br> 
+            <h2>Resultado:</h2>
+            <div id="resultado"></div>
+            <br>
+        </div>
+
+        <script src="operaciones.js"></script>
+    </body> 
+</html>

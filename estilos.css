@@ -1,0 +1,22 @@
+.titulo{
+    background-color:rgb(209, 255, 253);
+    color:rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    background-color:rgb(233, 231, 231);
+    color:rgb(0, 0, 0);
+}
+
+#resultado{
+    background-color: white;
+    color: black;
+    width: 60px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+}
